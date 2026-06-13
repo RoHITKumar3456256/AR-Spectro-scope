@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bff4db68e5a04b3a986d49a7e4bd02b, type: 3}
+  m_Name: XRGeneralSettings
+  m_EditorClassIdentifier: UnityEngine.XR.Management.XRGeneralSettings
+  m_LoaderList: {fileID: 2}
+  m_InitManagerOnStart: 1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f01b3c8a2d4b2a957b0f15b0b9d9f3, type: 3}
+  m_Name: XRManagerSettings
+  m_EditorClassIdentifier: UnityEngine.XR.Management.XRManagerSettings
+  m_Loaders:
+  - {fileID: 3}
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a36b5d7a2c4f4b3c7d9e4f2a1b3c5d7, type: 3}
+  m_Name: ARCoreLoader
+  m_EditorClassIdentifier: UnityEngine.XR.ARCore.ARCoreLoader
